@@ -57,7 +57,7 @@ jobs:
           spec:
             ingress:
               rules:
-                "\${resources.dns}": # This is the DNS record that we defined in the resources section
+                "\${resources.bob}": # This is the DNS record that we defined in the resources section
                   http:
                     "/":
                       type: prefix
