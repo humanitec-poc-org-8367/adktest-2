@@ -25,8 +25,8 @@ containers:
 resources:
   dns: # We need a DNS record to point to the service
     type: dns
-  dns-2: # We need a DNS record to point to the service
-    type: dns
+#  dns-2: # We need a DNS record to point to the service
+#    type: dns
 #  db:  # We need a database to store data
 #    type: mysql
 #    properties:
