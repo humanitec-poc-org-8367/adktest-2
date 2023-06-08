@@ -25,7 +25,6 @@ const requestHandler = async (request, response) => {
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
       <div class="container text-center mt-5 pt-5">
         <h1>Hello World!</h1>
-<!--        <p>${message}</p>-->
       </div>
     </body>
   </html>
