@@ -6,7 +6,7 @@ const requestHandler = async (request, response) => {
   const url = process.env.TODS_URL;
   console.log(`GET time of day: url=${url}`);
   const r = await fetch(url);
-  const body = await(r.json);
+  const body = await r.json();
   const tod = body.timeOfDay
   console.log(`GET time of day: tod=${tod}`);
   
