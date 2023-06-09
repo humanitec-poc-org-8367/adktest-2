@@ -16,10 +16,10 @@ containers:
     variables:
       PORT: "3000"
       TODS_URL: ${resources.time-of-day-svc.url}
-    readinessProbe:
-      httpGet:
-        path: /
-        port: 3000
+    # readinessProbe:
+    #   httpGet:
+    #     path: /
+    #     port: 3000
 
 # Define the resources that this service needs
 resources:
