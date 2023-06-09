@@ -8,17 +8,13 @@ const requestHandler = async (request, response) => {
   const r = await fetch(url);
   const body = await r.json();
   const tod = body.timeOfDay
-  console.log(`GET time of day: tod=${tod}`);
+  console.log(`response: tod=${tod}`);
   
   const html = `
   <html>
     <body>
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
-      <div class="container text-center mt-5 pt-5">
-        <p>TODS_URL: ${url}</p>
-        <p>Time of day: ${tod}</p>
-      </div>
+      <p>TODS_URL: ${url}</p>
+      <p>Time of day: ${tod}</p>
     </body>
   </html>
   `
