@@ -28,6 +28,5 @@ resources:
   time-of-day-svc:
     type: s3
     properties:
-      values:
-        url:
+      url:
 
